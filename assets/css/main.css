@@ -9664,3 +9664,39 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
   height: 30px;
   line-height: 30px;
 }
+
+
+/* 确保 dropdown 在悬停时显示 */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* 确保在悬停 dropdown 菜单时保持显示 */
+.nav-item.dropdown .dropdown-menu {
+  margin-top: 0; /* 防止 margin-top 由 Bootstrap 添加的默认样式 */
+}
+
+ .advisor img {
+     width: 250px; /* 增大图片宽度 */
+     height: 250px; /* 增大图片高度 */
+     border-radius: 50%;
+     display: block;
+     margin: 0 auto 10px; /* 将图片置于单独一行并居中 */
+ }
+.advisor a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px; /* 增大姓名文字大小 */
+    font-weight: bold; /* 加粗姓名文字 */
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.advisor p {
+    font-size: 14px;
+    line-height: 1.2; /* 调整行间距 */
+    white-space: pre-line; /* 保持多行显示 */
+    text-align: center;
+}
+
+
